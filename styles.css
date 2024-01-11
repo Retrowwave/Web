@@ -2,18 +2,19 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #ffffff;
     margin: 20px;
+    background-color: #333 ;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Helvetica', sans-serif;
-    color: #0066cc;
+    color: #5c0000;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: #5c0000;
 }
 
 img {
@@ -35,14 +36,14 @@ h1 {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
 }
 
 header {
-    background-color: hsl(204, 46%, 54%);
-    color: #fff;
+    background-color: hsl(0, 100%, 8%);
+    color: #ffffff;
     padding: 10px;
     text-align: center;
 }
@@ -67,6 +68,6 @@ nav li {
 /* Estilo para os links da lista de navegação */
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
 }
