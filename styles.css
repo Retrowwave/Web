@@ -71,3 +71,14 @@ nav a {
     color: #ffffff;
     font-weight: bold;
 }
+
+/* login.css */
+
+.login {
+    margin-left: inherit;
+}
+
+.login a {
+    color: #ffffff;
+    font-weight: bold;
+}
