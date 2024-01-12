@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     color: #ffffff;
     margin: 20px;
-    background-color: #333 ;
+    background-color: #333;
 }
 
 h2, h3, h4, h5, h6 {
@@ -22,6 +22,7 @@ img {
     height: 350px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 h1 {
@@ -30,15 +31,8 @@ h1 {
 
 .centralizado, h2 {
     max-width: 600px;
-    margin: 0 auto; /* Centraliza na horizontal usando 'auto' */
-    padding: 20px; /* Adiciona algum espaço interno ao redor do conteúdo (opcional) */
-}
-
-header {
-    background-color: #333;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 header {
@@ -46,39 +40,60 @@ header {
     color: #ffffff;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Estilo para a lista de navegação */
 nav {
-    text-align: center;
+    text-align: left;
 }
 
-/* Estilo para os itens da lista de navegação */
 nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 50px;
+    margin: 0 20px;
 }
 
-/* Estilo para os links da lista de navegação */
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
+form {
+    background-color: #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
 }
 
-/* login.css */
-
-.login {
-    margin-left: inherit;
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    text-align: left;
 }
 
-.login a {
-    color: #ffffff;
-    font-weight: bold;
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #eb5e5e;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5c0000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #c20000;
 }
