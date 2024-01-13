@@ -20,12 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Configurações do banco de dados
-    $servername = "127.0.0.1";
+    $servername = "localhost";
     $username_db = "root";
     $password_db = "";
     $dbname = "web_server";
 
-    // Cria a conexão
+    // Cria a conexão usando a abordagem orientada a objetos
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);
 
     // Verifica a conexão
@@ -40,10 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Executa a declaração SQL
     if ($stmt->execute()) {
         // Registro bem-sucedido
-        echo "Registro bem-sucedido! Agora você pode fazer login.";
+        echo "Registro bem-sucedido! Você pode fazer login agora.";
     } else {
         // Erro no registro
-        echo "Erro ao registrar. Tente novamente mais tarde.";
+        echo "Erro ao registrar. Tente novamente mais tarde. Erro: " . $stmt->error;
     }
 
     // Fecha a declaração e a conexão
