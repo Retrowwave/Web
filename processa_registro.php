@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Configurações do banco de dados
     $servername = "localhost";
     $username_db = "root";
-    $password_db = "";
+    $password_db = "Alex@123";
     $dbname = "web_server";
 
     // Cria a conexão usando a abordagem orientada a objetos
@@ -53,4 +53,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Acesso direto ao arquivo não permitido
     echo "Acesso não autorizado.";
 }
-?>
