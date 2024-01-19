@@ -97,3 +97,14 @@ button {
 button:hover {
     background-color: #c20000;
 }
+
+.registro_sucesso, h1 {
+    padding: 20px;
+    color: #cccccc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+}
+
+.login-button {
+    margin-right: auto; /* Isso move o botão "Login" para a esquerda */
+}

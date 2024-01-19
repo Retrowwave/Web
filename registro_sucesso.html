@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Esse é meu primeiro site.">
+    <meta name="Autor" content="Alex G L Keppler">
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html"><button>Home</button></a></li>
+                <li><a href="sobre.html"><button>Sobre</button></a></li>
+                <li><a href="registro.html"><button>Registro</button></a></li>
+                <li><a href="login.html"><button>Login</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="registro_sucesso"><h1>Registro Bem Sucedido!</h1></div>
+
+    <style>
+
+        .popup {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            opacity: 1;
+            animation: fadeOut 5s ease-in-out forwards; /* Duração da animação: 5 segundos */
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <style>
+        .popup-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .popup {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            opacity: 1;
+            animation: fadeOut 5s ease-in-out forwards; /* Duração da animação: 5 segundos */
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="popup-container">
+        <div class="popup">
+            <script>
+                setTimeout(function() {
+                    document.querySelector('.popup').style.display = 'none';
+                }, 5000); // Tempo em milissegundos (5 segundos no exemplo)
+            </script>
+
+            Registro bem-sucedido! Você pode fazer login agora.
+        </div>
+    </div>
+
+        Registro bem-sucedido! Você pode fazer login agora.
+    </div>
+
+</body>
+</html>
